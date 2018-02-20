@@ -13,9 +13,9 @@ body{
  
 }
 
-.first_div
+/* .first_div
 {
-    /*background-color:#f28e84;*/
+    /*background-color:#f28e84;
     resize: both;
     width:200px; height:200px;
     padding: 10px;
@@ -24,20 +24,20 @@ body{
     -moz-animation: anim 0.7s 1 ease;
     -ms-animation: anim 0.7s 1 ease;
     animation: anim 0.7s 1 ease;
-}
+} */
 .second_div
 {
-    width:198px; height:198px;
+    width:198px; height:198px; border-radius:50%;
     resize: both;
     border:1px solid #ffffff;
-    border-radius:50%;
-    position: absolute;
+    padding: 10px; margin-top: 8px;
+    position: absolute; left: 50%; margin-left: -110px;
     -webkit-animation:anim 1s 1 ease;
     -moz-animation:anim 1s 1 ease;
     -ms-animation:anim 1s 1 ease;
     animation:anim 1s 1 ease;
 }
-.img_div
+/* .img_div
 {
     width:200px; height:200px;
     resize: both;
@@ -72,12 +72,12 @@ body{
     -moz-animation: animuser 1.9s 1 ease-in;
     -ms-animation: animuser 1.9s 1 ease-in;
     animation: animuser 1.9s 1 ease-in;
-}
+} */
 .first_circle
 {
     width: 220px; height: 220px; border-radius:50%;
     resize: both;
-    padding: 10px; margin-top: -12px;
+    padding: 10px; margin-top: 2px;
     position: absolute; left: 50%; margin-left: -122px;
     border-top:2px solid #e84c3d;
     border-right:2px solid #e84c3d;
