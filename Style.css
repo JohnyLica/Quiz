@@ -9,72 +9,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-color: #464646;
- 
+    background-color: #464646; 
 }
 
-/* .first_div
-{
-    /*background-color:#f28e84;
-    resize: both;
-    width:200px; height:200px;
-    padding: 10px;
-    border-radius:50%;
-    -webkit-animation: anim 0.7s 1 ease;
-    -moz-animation: anim 0.7s 1 ease;
-    -ms-animation: anim 0.7s 1 ease;
-    animation: anim 0.7s 1 ease;
-} */
-.second_div
-{
-    width:198px; height:198px; border-radius:50%;
-    resize: both;
-    border:1px solid #ffffff;
-    padding: 10px; margin-top: 8px;
-    position: absolute; left: 50%; margin-left: -110px;
-    -webkit-animation:anim 1s 1 ease;
-    -moz-animation:anim 1s 1 ease;
-    -ms-animation:anim 1s 1 ease;
-    animation:anim 1s 1 ease;
-}
-/* .img_div
-{
-    width:200px; height:200px;
-    resize: both;
-    margin-top: 28px;
-    margin-left: 1px;
-    -webkit-animation:animuser 1s 1 ease;
-    -moz-animation:animuser 1s 1 ease;
-    -ms-animation:animuser 1s 1 ease;
-    animation:animuser 1s 1 ease;
-}
-.txt_welcome
-{
-    font-family:'Roboto';
-    resize: both;
-    font-size: 72px;
-    font-weight: 500;
-    color: #ffffff;
-    padding-top: 60px;
-    -webkit-animation: animwelcome 1.7s 1 ease-in;
-    -moz-animation: animwelcome 1.7s 1 ease-in;
-    -ms-animation: animwelcome 1.7s 1 ease-in;
-    animation: animwelcome 1.7s 1 ease-in;
-}
-.txt_user
-{
-    font-family:'Roboto';
-    resize: both;
-    font-size: 52px;
-    font-weight: 900;
-    color: #ffffff;
-    -webkit-animation: animuser 1.9s 1 ease-in;
-    -moz-animation: animuser 1.9s 1 ease-in;
-    -ms-animation: animuser 1.9s 1 ease-in;
-    animation: animuser 1.9s 1 ease-in;
-} */
-.first_circle
-{
+.first_circle {
     width: 220px; height: 220px; border-radius:50%;
     resize: both;
     padding: 10px; margin-top: 2px;
@@ -88,6 +26,54 @@ body{
     -ms-animation:anim_wifeo 1.4s infinite linear;
     animation:anim_wifeo 1.4s infinite linear;
 } 
+
+.second_circle {
+    width:198px; height:198px; border-radius:50%;
+    resize: both;
+    border:1px solid #ffffff;
+    padding: 10px; margin-top: 12px;
+    position: absolute; left: 50%; margin-left: -110px;
+    -webkit-animation:anim 1s 1 ease;
+    -moz-animation:anim 1s 1 ease;
+    -ms-animation:anim 1s 1 ease;
+    animation:anim 1s 1 ease;
+}
+
+.img_div {
+    width:200px; height:200px;
+    resize: both;
+    margin-top: 35px;
+    margin-left: 35px;
+    -webkit-animation:animuser 1s 1 ease;
+    -moz-animation:animuser 1s 1 ease;
+    -ms-animation:animuser 1s 1 ease;
+    animation:animuser 1s 1 ease;
+}
+
+.txt_welcome {
+    font-family:'Roboto';
+    resize: both;
+    font-size: 72px;
+    font-weight: 500;
+    color: #ffffff;
+    padding-top: 29%;
+    -webkit-animation: animwelcome 1.7s 1 ease-in;
+    -moz-animation: animwelcome 1.7s 1 ease-in;
+    -ms-animation: animwelcome 1.7s 1 ease-in;
+    animation: animwelcome 1.7s 1 ease-in;
+}
+.txt_user {
+    font-family:'Roboto';
+    resize: both;
+    font-size: 52px;
+    font-weight: 900;
+    color: #ffffff;
+    -webkit-animation: animuser 1.9s 1 ease-in;
+    -moz-animation: animuser 1.9s 1 ease-in;
+    -ms-animation: animuser 1.9s 1 ease-in;
+    animation: animuser 1.9s 1 ease-in;
+} 
+
 @-webkit-keyframes anim
 {
     0%{-webkit-transform:scale(0);}
