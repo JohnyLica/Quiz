@@ -24,6 +24,10 @@
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    -webkit-animation: animwelcome 2s 1 ease-in;
+    -moz-animation: animwelcome 2s 1 ease-in;
+    -ms-animation: animwelcome 2s 1 ease-in;
+    animation: animwelcome 2s 1 ease-in;
   }
   .btn:hover, .btn:focus {
     color: #fff;
