@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="questions.css">
+</head>
+
+<body>
+    <div class="bg_image">
+        <div class="grid">
+            <div id="quiz">
+                <h1>Quiz</h1>
+                <hr style="margin-bottom: 20px">
+
+                <p id="question"></p>
+
+                <div class="buttons">
+                    <button id="btn0">
+                        <span id="choice0"></span>
+                    </button>
+                    <button id="btn1">
+                        <span id="choice1"></span>
+                    </button>
+                    <button id="btn2">
+                        <span id="choice2"></span>
+                    </button>
+                    <button id="btn3">
+                        <span id="choice3"></span>
+                    </button>
+                </div>
+
+                <hr style="margin-top: 50px">
+                <footer>
+                    <p id="progress">Question
+                        <br/>x of y</p>
+                </footer>
+            </div>
+            <button class="reload_btn" onclick="window.location.reload()">Take Test Again</button>
+        </div>
+    </div>
+</body>
+
+<script src="quiz_score.js"></script>
+<script src="question.js"></script>
+<script src="app_data.js"></script>
+
+</html>
