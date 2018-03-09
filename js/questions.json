@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What is the body temperature of a normal man?",
+        "answers": {
+            "a": "81.1&#176;C",
+            "b": "36.9&#176;C",
+            "c": "98.6&#176;C",
+            "d": "21.7&#176;C"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "Which of the following helps in clotting of blood?",
+        "answers": {
+            "a": "Vitamin B1",
+            "b": "Vitamin B2",
+            "c": "Vitamin D",
+            "d": "Vitamin K"
+        },
+        "correctAnswer": "d"
+    },
+    {
+        "question": "Total volume of the blood in a normal adult human being is",
+        "answers": {
+            "a": "5-6 liters",
+            "b": "3-4 liters",
+            "c": "8-10 liters",
+            "d": "10-12 liters"
+        },
+        "correctAnswer": "a"
+    },
+    {
+        "question": "Red blood corpuscles are formed in the",
+        "answers": {
+            "a": "Liver",
+            "b": "Bone marrow",
+            "c": "Kidneys",
+            "d": "Heart"
+        },
+        "correctAnswer": "b"
+    },
+    {
+        "question": "How many bones are there in an adult human being",
+        "answers": {
+            "a": "210",
+            "b": "260",
+            "c": "206",
+            "d": "300"
+        },
+        "correctAnswer": "c"
+    },
+    {
+        "question": "Which is the largest organ in the human body?",
+        "answers": {
+            "a": "Liver",
+            "b": "Heart",
+            "c": "Skin",
+            "d": "Kidney"
+        },
+        "correctAnswer": "c"
+    }
+]
