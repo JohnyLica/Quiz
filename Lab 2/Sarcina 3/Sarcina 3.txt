@@ -1,0 +1,25 @@
+Clasificati numele variabelor in trei categorii:
+
+- bune:
+	var adminName;
+	var primaryAdmin;
+	var i;
+	var j;
+	var getCount;
+	var count;
+
+- nerecomandate:
+	var imia_Admina;
+	var numele_Adminului;
+	var admin_Name;
+	var AdminName;
+	var ADMINNAME;
+	var 1stAdmin;
+	var $;
+	var int;
+	var имяАдмина;
+	var _;
+
+- inadmisibile:
+	var getCount();
+	var admin-Name;

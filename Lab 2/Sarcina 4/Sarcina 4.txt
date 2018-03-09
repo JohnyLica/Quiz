@@ -1,0 +1,6 @@
+Cu ce va fi egala valoarea lui x in exemplu de mai jos (explicati)?
+var a = 2;
+var x = 3 + (a *= 3);
+
+a=6
+x=9

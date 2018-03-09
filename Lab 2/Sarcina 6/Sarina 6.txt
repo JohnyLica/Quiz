@@ -1,0 +1,66 @@
+Calculati valoarea expresiilor daca aceasta este posibil. Explicati rezultatele primite
+
+"" + 1 + 0 
+totul se transforma in string, si concateneaza in rezultat obtinem "10"
+
+"" - 1 + 0
+conversie numerica a stringului, il face 0, apoi se face calculul algebric si obinem -1
+
+true + false
+conversie numerica 1 + 0, obtinem 1
+
+6 / "3"
+conversie numerica, 3 string se transforma in numar, in rezultat avem 2
+
+"2" * "3"
+conversie numerica, Number("2") * Number("3") = 6
+
+4 + 5 + "px"
+dentii facem adunare 4 + 5, apoi concatenare de stringuri "9px"
+
+"$" + 4 + 5
+totul se transforma in string, si concateneaza in rezultat obtinem "$45"
+
+"4" - 2
+conversie numerica a stringului, il face 4, apoi se face calculul algebric si obinem 2
+
+"4px" - 2
+NaN, deoarece face Number("4px") = NaN
+
+7 / 0
+Division by 0 gives you Infinity
+
+" -9\n" + 5 (concateneaza string, + new line)
+Rezultat: " -9
+		  5"
+
+" -9\n" - 5 = Number(" -9\n") - 5 = -9 - 5 = -14
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators
+5 && 2
+incearca sa transforme 5 in false, si daca nu poate, returneaza expresia 2
+2 && 5
+incearca sa transforme 2 in false, si daca nu poate, returneaza expresia 5
+
+5 || 0
+incearca sa transforme 5 in true, si daca nu poate sal faca true, returneaza 0, da daca poate, returneaza 5
+
+0 || 5
+incearca sa transforme 0 in true, si daca nu poate sal faca true, returneaza 0, da daca poate, returneaza 5
+
+null + 1 = Number(null) + 1 = 0 + 1 = 1
+
+undefined + 1 = Number(undefined) + 1 = NaN + 1 = NaN
+
+null == "\n0\n" = false
+
+> Boolean(null)
+< false
+> Boolean("\n0\n")
+< true
+
++null == +"\n0\n" = true
+> Boolean(+null)
+< false
+> Boolean (+"\n0\n")
+< false

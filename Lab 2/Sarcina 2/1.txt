@@ -1,0 +1,16 @@
+1.
+<script src="big.js"></script>
+<script src="small.js"></script>
+In cazul dat, se incarcarca dentii big.js apoi small.js
+
+
+2.
+<script async src="big.js"></script>
+<script async src="small.js"></script>
+In cazul dat, se incarcarca dentii big.js apoi small.js
+
+
+3.
+<script defer src="big.js"></script>
+<script defer src="small.js"></script>
+In cazul dat, se incarcarca dentii big.js apoi small.js
